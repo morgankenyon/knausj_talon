@@ -28,6 +28,9 @@ empty escaped string:
     "\\'\\'"
     key(left)
     key(left)
+empty tick:
+    insert("``")
+    key(left)
 (inside parens | args):
 	insert("()")
 	key(left)

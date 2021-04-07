@@ -2,6 +2,9 @@ mode: user.csharp
 mode: command
 and code.language: csharp
 -
+# morgan's things
+getting setting: "{ get; set; }"
+
 tag(): user.code_operators
 tag(): user.code_comment
 tag(): user.code_generic

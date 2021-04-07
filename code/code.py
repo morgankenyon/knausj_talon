@@ -39,6 +39,7 @@ extension_lang_map = {
     ".go": "go",
     ".h": "c",
     ".hpp": "cplusplus",
+    ".html": "hypertext",
     ".java": "java",
     ".js": "javascript",
     ".jsx": "javascript",
