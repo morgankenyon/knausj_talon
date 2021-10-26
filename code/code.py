@@ -36,6 +36,7 @@ extension_lang_map = {
     ".cmake": "cmake",
     ".cpp": "cplusplus",
     ".cs": "csharp",
+    ".fs": "fsharp",
     ".gdb": "gdb",
     ".go": "go",
     ".h": "c",
