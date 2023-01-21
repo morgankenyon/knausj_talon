@@ -24,6 +24,12 @@ tag(): user.code_generic
 #^pro static funky <user.text>$: user.code_protected_static_function(text)
 #^pub static funky <user.text>$: user.code_public_static_function(text)
 let: "let "
+semi: ";"
+let <user.text>$:
+    insert("let ")
+    insert(text)
+    insert(" = ")
+bang let: "let! "  
 mutable: "mutable "
 forward pipe: "|> "
 match expression:
@@ -34,3 +40,21 @@ match expression:
     key(home)
     key(right:5)
     key(space)
+choose: 
+    insert("choose []")
+    key(left)
+    key(enter)
+op rocket: " >=> "
+op space equal: " = "
+unit fact:
+    insert("[<Fact")
+    key(end)
+    key(enter)
+    insert("let ```` () =")
+    key(left:7)
+comment that:
+    key("ctl-k-c")
+log info: "logger.LogInformation "
+log error: "logger.LogError "
+integer: "int"
+chararcter: "char"
