@@ -32,7 +32,7 @@ let <user.text>$:
 bang let: "let! "  
 mutable: "mutable "
 forward pipe: "|> "
-match expression:
+match with:
     insert("match with")
     key(enter)
     insert("| ")
